@@ -7,50 +7,62 @@
 </head>
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#">Länk1</a></li>
-            <li><a href="#">Länk2</a></li>
-            <li><a href="#">Länk3</a></li>
-            <li><a href="#">Länk4</a></li>
-        </ul>
+   <div class="row">
+        <nav class="column column-8">
+            <ul>
+                <li><a href="#">Länk1</a></li>
+                <li><a href="#">Länk2</a></li>
+                <li><a href="#">Länk3</a></li>
+                <li><a href="#">Länk4</a></li>
+            </ul>
+        </nav>
 
-        <p class="logo">Logo</p>
-    </nav>
+        <div class="column column-4 logo">
+            <p>Logo</p>
+        </div>
+    </div>
 
-    <header class="top">
-        <h1>.top Här har vi en rubrik.</h1>
-    </header>
+      <div class="row">
+        <header class="top column column-12">
+            <h1>.top Här har vi en rubrik.</h1>
+        </header>
+    </div>
 
-    <div class="wrapper">
 
-        <aside class="widget">
+  <div class="row row-box">
 
-            <h2>.widget En till rubrik</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium sagittis ex et mattis. Maecenas id porta lectus, ut vulputate lacus. Suspendisse pellentesque tortor in sodales sagittis. Proin rutrum quis dolor vel aliquet. Maecenas sed imperdiet dui. Sed quis eros neque. Curabitur euismod erat vel gravida efficitur.</p>
-        
-         </aside>
+      <div class="column column-9">
 
         <section class="first">
-            
+
             <h2>.first En underrubrik</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium sagittis ex et mattis. Maecenas id porta lectus, ut vulputate lacus. Suspendisse pellentesque tortor in sodales sagittis. Proin rutrum quis dolor vel aliquet. Maecenas sed imperdiet dui. Sed quis eros neque. Curabitur euismod erat vel gravida efficitur. Cras efficitur, elit ac aliquet volutpat, est magna vehicula neque, quis accumsan magna quam et dolor. Aenean ultrices porta risus eu tincidunt. Aenean sodales massa turpis, sodales varius leo blandit non.</p>
 
         </section>
 
-        <section class="second">
+        <section id="second">
 
             <h2>.second En underrubrik</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium sagittis ex et mattis. Maecenas id porta lectus, ut vulputate lacus. Suspendisse pellentesque tortor in sodales sagittis. Proin rutrum quis dolor vel aliquet. Maecenas sed imperdiet dui. Sed quis eros neque. Curabitur euismod erat vel gravida efficitur. Cras efficitur, elit ac aliquet volutpat, est magna vehicula neque, quis accumsan magna quam et dolor. Aenean ultrices porta risus eu tincidunt. Aenean sodales massa turpis, sodales varius leo blandit non.</p>
 
         </section>
+      </div>
 
+      <div class="column column-3 aside-box">
+        <aside id="widget">
+            <h2>.widget En till rubrik</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pretium sagittis ex et mattis. Maecenas id porta lectus, ut vulputate lacus. Suspendisse pellentesque tortor in sodales sagittis. Proin rutrum quis dolor vel aliquet. Maecenas sed imperdiet dui. Sed quis eros neque. Curabitur euismod erat vel gravida efficitur.</p>
+        </aside>
+      </div>
     </div>
 
-    <footer>
-        <p>Footertext här.</p>
-    </footer>
 
-    
+     <div class="row">
+        <footer class="column column-12">
+            <p>Footertext här.</p>
+        </footer>
+    </div>
+
+
 </body>
 </html>
